@@ -1,6 +1,4 @@
-# COLECTING INFORMATION ON COP26 FROM BRAZILIAN WEBSITE G1 AND SHOWING AS A WORD CLOUD
-# The 2021 Conference of (COP 26) is happening from 31th of October to 12h of November. It aggregates the countries that have signed the UN Framework Convention of Climate Change (UNFCCC) and bring together several countries' leaders to address climate change.
-# 
+# COLECTING INFORMATION ON COVID FROM BRAZILIAN WEBSITE G1 AND SHOWING AS A WORD CLOUD
 # Regarding the event's size, this project aims to use web scrapping to get information around the conference and plot as a word cloud.
 # 
 # The source of our information is the g1 portal, an important Brazilian news website.
@@ -16,7 +14,7 @@ from bs4 import BeautifulSoup
 
 
 # Reading the website
-url = 'https://g1.globo.com/busca/?q=COP+26' # The url we are using to access
+url = 'https://g1.globo.com/busca/?q=covid' # The url we are using to access
 
 option = Options() 
 option.headless = True 
@@ -82,7 +80,7 @@ import numpy as np
 from PIL import Image
 from wordcloud import WordCloud
 
-mask = np.array(Image.open('D:\\GitHub\\webscraping-to-wordcloud\\mask-cop26.png'))
+mask = np.array(Image.open('D:\\GitHub\\webscraping-to-wordcloud\\mask-covid19.png'))
 
 
 wordcloud = WordCloud(mask = mask, margin = 10,
@@ -94,6 +92,6 @@ wordcloud = WordCloud(mask = mask, margin = 10,
 default_colors = wordcloud.to_array()
 plt.figure()
 plt.imshow(default_colors, interpolation="bilinear")
-wordcloud.to_file("wordcloud-cop26.png")
+wordcloud.to_file("wordcloud-covid19.png")
 plt.axis("off")
 plt.show()
