@@ -84,7 +84,7 @@ mask = np.array(Image.open('D:\\GitHub\\webscraping-to-wordcloud\\mask-covid19.p
 
 
 wordcloud = WordCloud(mask = mask, margin = 10,
-                background_color ='rgb(0, 0, 51)',
+                background_color ='rgb(255, 56, 56)',
                 stopwords = stop_words_pt,
                 min_font_size = 10).generate(comment_words)
 
