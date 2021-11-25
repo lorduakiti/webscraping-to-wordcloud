@@ -5,8 +5,12 @@ Este projeto tem como objetivo analisar quantitativamente os principais temas co
 ## Portais de Notícias Analisados:
 * https://g1.globo.com/
 
-## Temas Buscados:
-* COP 26
+## Resultados dos Temas Buscados:
+### COP 26:
+[![Result COP 26](https://github.com/lorduakiti/webscraping-to-wordcloud/blob/master/wordcloud-cop26.png)](https://github.com/lorduakiti/webscraping-to-wordcloud/blob/master/wordcloud-cop26.png)
+
+### Covid 19:
+[![Result Covid-19](https://github.com/lorduakiti/webscraping-to-wordcloud/blob/master/wordcloud-covid19.png)](https://github.com/lorduakiti/webscraping-to-wordcloud/blob/master/wordcloud-covid19.png)
 
 
 ## Referências: 
