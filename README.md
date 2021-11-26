@@ -1,6 +1,6 @@
 # Projeto de Extração Web de Dados e Análise com NLP
 
-Este projeto tem como objetivo analisar quantitativamente os principais temas correlacionados a tópicos de notícias selecionados, em portais de notícias brasileiros, utilizando técnicas de mineração de texto e processamento de lingua natural (NLP).
+Este projeto tem como objetivo analisar quantitativamente os principais temas correlacionados a tópicos de notícias selecionados, em portais de notícias brasileiros, utilizando técnicas de mineração de texto e processamento de linguagem natural (NLP).
 
 ## Portais de Notícias Analisados:
 * https://g1.globo.com/
